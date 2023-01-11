@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+  <body>
+    <div class="b-popup" id="b-popup">
+      <div class="popup_conent">
+        <a class="popup_close" title="Закрыть" href="#close"></a>
+        <h3 class="widget_title popup">ваш фидбек</h3>
+        <div class="popup__desc">
+          <form action="popup__desc_form">
+          <label for="popup">Как часто вы заходите на сайт?</label>
+          <div class="popup__desc_select">
+            <select name="" id="popup">
+              <option value="day">Почти каждый день</option>
+              <option value="week">Раз в неделю</option>
+              <option value="month">Раз в месяц</option>
+            </select>
+          </div>
+          <label class="popup__desc_radio">Вы подписаны на e-mail рассылку?</label>
+          <input type="radio" id="yes" value="yes" name="e-mail" class="popup__desc_radio_button"><label for="yes">Да</label>
+          <input type="radio" id="no" value="no" name="e-mail" class="popup__desc_radio_button"><label for="no" >Нет</label>   
+          <label for="textarea" class="popup__desc_area">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
+          <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Может, больше рецептов?"></textarea>
+          <button class="mailing_button popup_button">отправить</button>
+          </form> 
+        </div>
+        
+      </div>
+    </div>
+     <header class="heading">
+        <nav class="menu">
+          <a href="#b-popup" class="logo"><img src="../mq-diplom/svg/noemi-logo.svg" alt="логотип"></a>
+          <ul class="menu__item">
+            <li class="menu__link"><a class="menu__link_item" href="#0">главная</a></li>
+            <li class="menu__link"><a class="menu__link_item" href="#0">посты</a></li>
+            <li class="menu__link"><a class="menu__link_item" href="#0">статьи</a></li>
+            <li class="menu__link"><a class="menu__link_item" href="#0">теги</a></li>
+            <li class="menu__link"><a class="menu__link_item" href="#0">темы</a></li>
+            <li class="menu__link"><a class="menu__link_item" href="#0">контакты</a></li>
+          </ul> 
+          <div class="burger">
+                <input type="checkbox" id="menu__burger">
+                <label for="menu__burger"></label>
+                <span class="menu__burger_btn"></span>
+                <ul class="menu__burger__item">
+                    <li class="menu__link"><a class="menu__link_item" href="#0">главная</a></li>
+                    <li class="menu__link"><a class="menu__link_item" href="#0">посты</a></li>
+                    <li class="menu__link"><a class="menu__link_item" href="#0">статьи</a></li>
+                    <li class="menu__link"><a class="menu__link_item" href="#0">теги</a></li>
+                    <li class="menu__link"><a class="menu__link_item" href="#0">темы</a></li>
+                    <li class="menu__link"><a class="menu__link_item" href="#0">контакты</a></li>
+                  </ul> 
+          </div>
+        </nav>
+      <h1 class="header_label">блог о творчестве, спорте, и образе жизни</h1>
+     </header>
+     <section class="trend">
+       <h1 class="widget_title trend__row_heading">сейчас в тренде</h1>
+       <div class="trend__row">
+          <div class="trend__row_list"><img src="../mq-diplom/img/trend1.jpg" alt="Рассада">
+              <div class="trend__row_content">
+                <header class="header__content_trend">
+                    <ul class="header__content_link">
+                      <li><a href="#0" class="header__content_meta">lifestyle</a></li>
+                      <li><a href="#0" class="header__content_meta">interior</a></li>
+                    </ul>
+                    <h3 class="header__content_title"><a href="#0" class="header__content_all trend__row_title">сейчас в тренде: сад на подоконнике</a></h3>
+               </header>
+            </div>
+          </div>
+          <div class="trend__row_list"><img src="../mq-diplom/img/trend2.jpg" alt="Различные виды сыров">
+            <div class="trend__row_content">
+              <header class="header__content_trend">
+                  <ul class="header__content_link">
+                    <li><a href="#0" class="header__content_meta">food</a></li>
+                  </ul>
+                  <h3 class="header__content_title"><a href="#0" class="header__content_all trend__row_title">сыры на красивых картинках из интернета: какие они на вкус?</a></h3>
+             </header>
+          </div>
+          </div>
+          <div class="trend__row_list"><img src="../mq-diplom/img/trend3.jpg" alt="Поход в горы">
+            <div class="trend__row_content">
+              <header class="header__content_trend">
+                  <ul class="header__content_link">
+                    <li><a href="#0" class="header__content_meta">lifestyle</a></li>
+                    <li><a href="#0" class="header__content_meta">travel</a></li>
+                  </ul>
+                  <h3 class="header__content_title"><a href="#0" class="header__content_all trend__row_title">собираемся в первый поход в горы</a></h3>
+             </header>
+          </div>
+          </div>
+          <div class="trend__row_list"><img src="../mq-diplom/img/trend4.jpg" alt="Лимоны">
+            <div class="trend__row_content">
+              <header class="header__content_trend">
+                  <ul class="header__content_link">
+                    <li><a href="#0" class="header__content_meta">food</a></li>
+                    <li><a href="#0" class="header__content_meta">health</a></li>
+                  </ul>
+                  <h3 class="header__content_title"><a href="#0" class="header__content_all trend__row_title">сейчас в тренде: сколько витамина с в лимонах?</a></h3>
+             </header>
+          </div>
+          </div>
+       </div>
+     </section>
+    <div class="content">
+       <main class="main">
+        <article class="article">
+            <img src="../mq-diplom/img/last-post1.jpg" alt="Прогулка на рассвете по берегу моря">
+            <div class="article_content">
+                <header class="header__content">
+                <ul class="header__content_link">
+                    <li><a href="#0" class="header__content_meta">travel</a></li>
+                    <li><a href="#0" class="header__content_meta">health</a></li>
+                </ul>
+                <h3 class="header__content_title"><a href="#0" class="header__content_all">10 мест, ради которых стоит проснуться на рассвете</a></h3>
+                <div class="header__content_sibtitle"><span class="header__content_time">10 июня 2019</span><span class="header__content_author">Неизвестный автор</span></div>
+                </header>
+                <div class="article_text">
+                <p>Итак,вы в Питере. Ранее утро. Лед с рек и каналов уже ушел, запущены фонтаны города... Музеи еще закрыты. Что посмотреть?</p>
+                </div>
+            </div>
+        </article>
+        <article class="article">
+            <img src="../mq-diplom/img/last-post2.jpg" alt="Поза йоги на берегу моря">
+            <div class="article_content">
+                <header class="header__content">
+                <ul class="header__content_link">
+                    <li><a href="#0" class="header__content_meta">health</a></li>
+                    <li><a href="#0" class="header__content_meta">lifestyle</a></li>
+                </ul>
+                <h3 class="header__content_title"><a href="#0" class="header__content_all">йога для начинающих в домашних условиях</a></h3>
+                <div class="header__content_sibtitle"><span class="header__content_time">10 июня 2019</span><span class="header__content_author">Неизвестный автор</span></div>
+                </header>
+                <div class="article_text">
+                <p>Расскажем, какие упражнения выбрать и как сделать коврик для занятий йогой из того, что можно найти в шкафу.</p>
+                </div>
+            </div>
+        </article>
+        <article class="article">
+            <img src="../mq-diplom/img/last-post3.jpg" alt="Летний фестиваль и его поклоники ">
+            <div class="article_content">
+                <header class="header__content">
+                    <ul class="header__content_link">
+                    <li><a href="#0" class="header__content_meta">music</a></li>
+                    </ul>
+                    <h3 class="header__content_title"><a href="#0" class="header__content_all">лучшие мызыкальные фестивали этого лета</a></h3>
+                    <div class="header__content_sibtitle"><span class="header__content_time">10 июня 2019</span><span class="header__content_author">Неизвестный автор</span></div>
+                </header>
+                <div class="article_text">
+                <p>Лето на носу, а с ним и музыкальные фестивали. На каком же из них вы разобьете свою палатку? Мы составили список лучших летних фестивалей по всему миру.</p>
+                </div>
+            </div>
+        </article>
+        <article class="article">
+            <img src="../mq-diplom/img/last-post4.jpg" alt="Кухоный стол сервированный для обеда">
+            <div class="article_content">
+                <header class="header__content">
+                    <ul class="header__content_link">
+                    <li><a href="#0" class="header__content_meta">lifestyle</a></li>
+                    <li><a href="#0" class="header__content_meta">food</a></li>
+                    </ul>
+                    <h3 class="header__content_title"><a href="#0" class="header__content_all">наукоемкий подход к кулинарии</a></h3>
+                    <div class="header__content_sibtitle"><span class="header__content_time">10 июня 2019</span><span class="header__content_author">Неизвестный автор</span></div>
+                </header>
+                <div class="article_text">
+                <p>Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p>
+                </div>
+            </div>
+        </article>
+        <article class="article">
+            <img src="../mq-diplom/img/last-post5.jpg" alt="Розовая подушка с надписью">
+            <div class="article_content article_content_child">
+            <header class="header__content">
+                <ul class="header__content_link">
+                    <li><a href="#0" class="header__content_meta">lifestyle</a></li>
+                    <li><a href="#0" class="header__content_meta">interior</a></li>
+                    <li><a href="#0" class="header__content_meta">art</a></li>
+                </ul>
+                <h3 class="header__content_title"><a href="#0" class="header__content_all">делаем модные принты на подушках для интерьера</a></h3>
+                <div class="header__content_sibtitle"><span class="header__content_time">10 июня 2019</span><span class="header__content_author">Неизвестный автор</span></div>
+            </header>
+            <div class="article_text">
+                <p>Подушки для дивана целесллбразнее заказать в съемных чехлах на молнии, если потребуется чистка подушек, проще снять чехлы, чем везти подушку в чимчистку.</p>
+            </div>
+            </div>
+        </article>
+        <!--<article class="article">
+        <img src="https://netology-code.github.io/html-2-diploma/sources/images/last-post6.jpg" alt="Два путешественика поднялись на скалу">
+        <div class="article_content">
+           <header class="header__content">
+            <ul class="header__content_link">
+              <li><a href="#0" class="header__content_meta">travel</a></li>
+              <li><a href="#0" class="header__content_meta">lifestyle</a></li>
+            </ul>
+            <h3 class="header__content_title"><a href="#0" class="header__content_all">как первый раз отправиться в горы</a></h3>
+            <div class="header__content_sibtitle"><span class="header__content_time">10 июня 2019</span><span class="header__content_author">Неизвестный автор</span></div>
+          </header>
+          <div class="article_text">
+            <p>Для начала нужно определиться, в каком формате пройдет ваше путешествие. Это зависит от многих факторов, не только от ваших желаний и интересов.</p>
+          </div>
+        </div>
+       </article>
+       <article class="article">
+        <img src="../mq-diplom/img/last-post4.jpg" alt="Кухоный стол сервированный для обеда">
+          <div class="article_content">
+             <header class="header__content">
+                <ul class="header__content_link">
+                  <li><a href="#0" class="header__content_meta">lifestyle</a></li>
+                  <li><a href="#0" class="header__content_meta">food</a></li>
+                </ul>
+                <h3 class="header__content_title"><a href="#0" class="header__content_all">наукоемкий подход к кулинарии</a></h3>
+                <div class="header__content_sibtitle"><span class="header__content_time">10 июня 2019</span><span class="header__content_author">Неизвестный автор</span></div>
+            </header>
+            <div class="article_text">
+              <p>Узнаем основы проектирования новых пищевых и около-пищевых опытов, вскроем физику, химию и микробиологию еды.</p>
+            </div>
+          </div>
+       </article>-->
+      </main>
+      <aside class="sidebar">
+        <h3 class="widget_title posts">новые посты</h3>
+        <ul class="widget"> 
+          <li class="widget__col">
+            <img src="../mq-diplom/img/2.jpg" alt="Прогулка на рассвете по берегу моря" class="widget__col_img">
+              <div class="widget__col_desc">
+              <span class="widget__col_time">14 июня 2019</span> 
+              <a href="#0">
+                  <h4 class="widget__col_caption">10 мест, ради которых стоит проснуться</h4>
+                </a>
+            </div>  
+          </li>
+          <li class="widget__col">
+            <img src="../mq-diplom/img/151.jpg" alt="Поза йоги на берегу моря">
+            <div class="widget__col_desc">
+              <span class="widget__col_time">14 июня 2019</span> 
+              <a href="#0">
+                  <h4 class="widget__col_caption">йога для домашних</h4>
+                </a>
+            </div>  
+          </li>
+          <li class="widget__col">
+            <img src="../mq-diplom/img/45.jpg" alt="Розовое кресло на балконе">
+            <div class="widget__col_desc">
+              <span class="widget__col_time">14 июня 2019</span> 
+              <a href="#0">
+                  <h4 class="widget__col_caption">как мы превратили классное место в балкон</h4>
+              </a>
+            </div>  
+          </li>
+          <li class="widget__col">
+            <img src="../mq-diplom/img/501.jpg" alt="Кухоный стол сервированный для обеда">
+            <div class="widget__col_desc">
+              <span class="widget__col_time">14 июня 2019</span> 
+              <a href="#0">
+                  <h4 class="widget__col_caption">кулинарный подход к науке</h4>
+                </a>
+            </div>  
+          </li>
+          <li class="widget__col">
+            <img src="../mq-diplom/img/7.jpg" alt="Три девушки с длинными волоса">
+            <div class="widget__col_desc">
+              <span class="widget__col_time">14 июня 2019</span> 
+              <a href="#0">
+                  <h4 class="widget__col_caption">лучшие прически для распущенных волос</h4>
+                </a>
+            </div>  
+          </li>
+        </ul>
+          <form class="form">
+            <input type="text" class="button_text" title="Поиск тем о творчестве, спорте и образе жизни" placeholder="Найти...">
+            <label for="text" class="visually-hidden">Найти...</label>
+            
+            <button type="submit" class="button_submit"><span class="visually-hidden">Кнопка поиска</button></span></button>
+          </form>
+        <h3 class="widget_title btn">рассылка</h3>
+        <div class="mailing">
+           <form class="mailing_email">
+             <label for="text" class="visually-hidden">Ваш email-адрес</label>
+             <input type="text" class="mailing_input" placeholder="Ваш email-адрес">
+             <button class="mailing_button">подписаться<span class="visually-hidden">подписаться</span></button>
+           </form>
+        </div>
+        <div>
+          <h3 class="widget_title meta">теги</h3>
+          <ul class="meta_list">
+            <li class="meta_items"><a href="#0">fashion</a></li>
+            <li class="meta_items"><a href="#0">music</a></li>
+            <li class="meta_items"><a href="#0">lifestyle</a></li>
+            <li class="meta_items"><a href="#0">art</a></li>
+            <li class="meta_items"><a href="#0">interior</a></li>
+            <li class="meta_items"><a href="#0">travel</a></li>
+            <li class="meta_items"><a href="#0">food</a></li>
+            <li class="meta_items"><a href="#0">health</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="widget_title features">темы</h3>
+          <ul class="features_list">
+            <li class="features_item"><a href="#0">Красота</a><span class="features_lot">12</span></li>
+            <li class="features_item"><a href="#0">Здоровье</a><span class="features_lot">4</span></li>
+            <li class="features_item"><a href="#0">Образ жизни</a><span class="features_lot">145</span></li>
+            <li class="features_item"><a href="#0">Музыка</a><span class="features_lot">28</span></li>
+            <li class="features_item"><a href="#0">Спорт</a><span class="features_lot">62</span></li>
+            <li class="features_item"><a href="#0">Йога</a><span class="features_lot">8</span></li>
+          </ul> 
+        </div>    
+      </aside>
+    </div>    
+    <section class="benefits">
+      <h1 class="widget_title benefits__title">наши изделия</h1>
+      <ul class="benefits__list">
+          <li class="benefits__list_item"><img src="../mq-diplom/img/shop-item-desk1.jpg" alt="подушка на диван">
+            <div class="benefits__list_desc"><h2>подушка на диван</h2><span>Набор из двух подушек с модными принтами. Видео о создании <a href="#0">здесь.</a></span>
+              <div class="benefits__footer">
+                <div class="benefits__prices">
+                  <span class="benefits__price benefits__price_through">
+                    <span class="benefits__price-value">1000</span>
+                    <span class="benefits__rub">₽</span>
+                  </span>
+                  <span class="benefits__price">
+                    <span class="benefits__price-value">800</span>
+                    <span class="benefits__rub">₽</span>
+                  </span>
+                </div>
+                <button class="benefits__button" type="button">в магазин</button>
+              </div>
+            </div>
+          </li>
+          <li class="benefits__list_item"><img src="../mq-diplom/img/shop-item-desk2.jpg" alt="кукла зайчик">
+            <div class="benefits__list_desc"><h2>кукла "зайчик"</h2><span>Интерьерная рукодельная кукла "Зайчик", созданию которой посвящена <a href="#0">весенняя серия постов</a> в блоге и несколько подкастов.</span>
+              <div class="benefits__footer">
+                <div class="benefits__prices">
+                  <span class="benefits__price">
+                    <span class="benefits__price-value">3500</span>
+                    <span class="benefits__rub">₽</span>
+                  </span>
+                </div>
+                <button class="benefits__button" type="button">в магазин</button>
+              </div>
+            </div>
+          </li>
+          <li class="benefits__list_item"><img src="../mq-diplom/img/shop-item-desk3.jpg" alt="шестиугольная рамка">
+            <div class="benefits__list_desc"><h2>шестиугольная рамка</h2><span>Необычная рамка для украшения дома из видео <a href="#0">"Как сделать рамку из подручных средств за 30 минут".</a></span>
+              <div class="benefits__footer">
+                <div class="benefits__prices">
+                  <span class="benefits__price benefits__price_through">
+                    <span class="benefits__price-value">500</span>
+                    <span class="benefits__rub">₽</span>
+                  </span>
+                  <span class="benefits__price">
+                    <span class="benefits__price-value">400</span>
+                    <span class="benefits__rub">₽</span>
+                  </span>
+                </div>
+                <button class="benefits__button" type="button">в магазин</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+    </section>
+    <footer>
+        <ul class="socials__icon">
+          <li><a href="#0" class="socials__icon_dribbble"><img src="../mq-diplom/svg/001-dribbble.svg" alt="dribbble"><span class="visually-hidden">dribbble</span></a></li>
+          <li><a href="#0" class="socials__icon_pinterest"><img src="../mq-diplom/svg/002-pinterest.svg" alt="pinterest"><span class="visually-hidden">pinterest</span></a></li>
+          <li><a href="#0" class="socials__icon_tumblr"><img src="../mq-diplom/svg/003-tumblr.svg" alt="tumblr"><span class="visually-hidden">tumblr</span></a></li>
+      </ul>
+      <a href="#0" class="copyright">Copyright &copy; 2009-2019 City Blog LLC.</a>   
+    </footer>
+</body>
+</html>
